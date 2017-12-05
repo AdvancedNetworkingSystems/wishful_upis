@@ -284,7 +284,8 @@ def start_monitor():
     return
 
 
-def start_adhoc():
+def start_adhoc(driver, iface, essid, freq, txpower, rate, ip_addr, rts='off',
+                mac_address="aa:bb:cc:dd:ee:ff", skip_reload=False):
     '''
     Start Ad-hoc mode on WiFi interface
     '''
