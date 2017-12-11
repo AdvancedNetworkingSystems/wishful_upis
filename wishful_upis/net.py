@@ -341,3 +341,17 @@ def get_neighbor_table():
 
 def add_neighbor(neighbor_ip_address, neighbor_link_address, is_router):
     return
+
+
+def flush_iptables():
+    """ Deletes all iptables rules
+    """
+    return
+
+
+def filter_mac(neighbor_mac_address):
+    """ Add a mac-layer rule to iptables to drop all packets from a specific
+    mac address
+    :param neighbor_mac_address: the mac address to filter
+    """
+    return
