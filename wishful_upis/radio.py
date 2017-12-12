@@ -636,3 +636,9 @@ def get_hwaddr():
         String: HW address in the IEEE: MAC-48 format
     """
     return
+
+
+def interface_down():
+    """ Tears down the selected interface
+    """
+    return
