@@ -355,3 +355,9 @@ def filter_mac(neighbor_mac_address):
     :param neighbor_mac_address: the mac address to filter
     """
     return
+
+
+def get_hostname():
+    """ Returns the hostname for the node
+    """
+    return
