@@ -64,3 +64,9 @@ def transaction_commit():
     '''Commit an open transaction.
     '''
     pass
+
+
+def get_hostname():
+    """ Returns the hostname for the node
+    """
+    return
