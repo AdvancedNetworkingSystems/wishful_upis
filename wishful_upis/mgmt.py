@@ -70,3 +70,9 @@ def get_hostname():
     """ Returns the hostname for the node
     """
     return
+
+
+def run_terminal_command(cmd, cwd=None):
+    """Runs a command in the terminal
+    """
+    return
